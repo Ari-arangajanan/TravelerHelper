@@ -11,8 +11,14 @@
 	<groupId>com.MITProject</groupId>
 	<artifactId>TravelerHelper</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
 	<name>TravelerHelper</name>
 	<description>Traveler Helper, Telegram Bot application</description>
+	<modules>
+		<module>TravelerHelperAdmin</module>
+		<module>TravelHelperBot</module>
+		<module>TravelerHelperService</module>
+	</modules>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
