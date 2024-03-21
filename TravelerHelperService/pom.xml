@@ -8,13 +8,28 @@
         <artifactId>TravelerHelper</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-
     <artifactId>TravelerHelperService</artifactId>
+    <name>TravelerHelper_service</name>
+    <description>TravelerHelper Service module</description>
+    <dependencies>
+        <!-- Add your dependencies here -->
+    </dependencies>
 
-    <properties>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
+    <!-- Disable execution of main class -->
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <mainClass>TravelerHelperService</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>

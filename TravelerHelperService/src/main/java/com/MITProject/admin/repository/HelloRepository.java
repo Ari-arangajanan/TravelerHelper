@@ -1,0 +1,1 @@
+package com.MITProject.admin.repository;import com.MITProject.admin.domain.Hello;public interface HelloRepository {    void helloSave(Hello hello);}
