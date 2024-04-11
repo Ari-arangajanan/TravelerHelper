@@ -16,7 +16,7 @@ public class AdminTravelerHelperApplication {
 	@Bean
 	public CommandLineRunner demo(String[] args) {
 		return runner -> {
-			System.out.println(" hello ");
+			System.out.println(" hello: Travel Helper Admin application is started Successfully ");
 		};
 	}
 
