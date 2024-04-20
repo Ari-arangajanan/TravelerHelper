@@ -14,11 +14,6 @@
 	<packaging>pom</packaging>
 	<name>TravelerHelper</name>
 	<description>Traveler Helper, Telegram Bot application</description>
-	<modules>
-		<module>TravelerHelperAdmin</module>
-		<module>TravelHelperBot</module>
-		<module>TravelerHelperService</module>
-	</modules>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -122,5 +117,10 @@
 			</releases>
 		</pluginRepository>
 	</pluginRepositories>
-
+	<modules>
+		<module>common</module>
+		<module>TravelerHelperAdmin</module>
+		<module>TravelHelperBot</module>
+		<module>TravelerHelperService</module>
+	</modules>
 </project>

@@ -8,16 +8,11 @@
         <artifactId>TravelerHelper</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <artifactId>TravelerHelperService</artifactId>
-    <name>TravelerHelper_service</name>
-    <description>TravelerHelper Service module</description>
+    <artifactId>Common</artifactId>
+    <name>Common</name>
+    <description>Common</description>
     <dependencies>
         <!-- Add your dependencies here -->
-        <dependency>
-            <groupId>com.MITProject</groupId>
-            <artifactId>Common</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
     </dependencies>
 
     <!-- Disable execution of main class -->
