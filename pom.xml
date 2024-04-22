@@ -118,9 +118,9 @@
 		</pluginRepository>
 	</pluginRepositories>
 	<modules>
+		<module>TravelerHelperService</module>
 		<module>common</module>
 		<module>TravelerHelperAdmin</module>
 		<module>TravelHelperBot</module>
-		<module>TravelerHelperService</module>
 	</modules>
 </project>

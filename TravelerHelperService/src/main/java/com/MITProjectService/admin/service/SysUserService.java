@@ -1,0 +1,1 @@
+package com.MITProjectService.admin.service;import com.MITProjectService.admin.domain.SysUser;public interface SysUserService {    SysUser addSysUser(SysUser sysUser);}
