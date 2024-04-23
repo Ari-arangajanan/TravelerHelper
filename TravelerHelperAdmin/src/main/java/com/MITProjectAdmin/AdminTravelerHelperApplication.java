@@ -3,13 +3,15 @@ package com.MITProjectAdmin;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @SpringBootApplication
 @EnableTransactionManagement
-@ComponentScan(basePackages = {"com.MITProjectAdmin","com.MITProjectService"})
+@ComponentScan(basePackages = {"com.MITProjectService", "com.MITProjectAdmin"})
+@EntityScan(basePackages = {"com.MITProjectService.admin.domain"})
 public class AdminTravelerHelperApplication {
 
 	public static void main(String[] args) {
