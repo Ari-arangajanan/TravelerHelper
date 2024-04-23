@@ -9,7 +9,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @SpringBootApplication
 @EnableTransactionManagement
-@ComponentScan(basePackages = {"com.MITProjectService"})
+@ComponentScan(basePackages = {"com.MITProjectAdmin","com.MITProjectService"})
 public class AdminTravelerHelperApplication {
 
 	public static void main(String[] args) {
