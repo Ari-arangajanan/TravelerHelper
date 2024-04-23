@@ -1,1 +1,1 @@
-package com.MITProjectService.admin.dao;import com.MITProjectService.admin.domain.SysUser;import org.springframework.data.jpa.repository.JpaRepository;public interface SystemUserRepo extends JpaRepository<SysUser,Integer> {}
+package com.MITProjectService.admin.dao;import com.MITProjectService.admin.domain.SysUser;import org.springframework.data.jpa.repository.JpaRepository;public interface SystemUserRepo  {    SysUser save(SysUser sysUser);}
