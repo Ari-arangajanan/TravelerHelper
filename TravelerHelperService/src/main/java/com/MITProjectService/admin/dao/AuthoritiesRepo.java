@@ -1,0 +1,1 @@
+package com.MITProjectService.admin.dao;import com.MITProjectService.admin.domain.system.Authorities;public interface AuthoritiesRepo {    void save(Authorities authorities);}
