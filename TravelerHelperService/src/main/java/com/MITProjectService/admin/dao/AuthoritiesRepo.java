@@ -1,1 +1,1 @@
-package com.MITProjectService.admin.dao;import com.MITProjectService.admin.domain.system.Authorities;public interface AuthoritiesRepo {    void save(Authorities authorities);    Authorities setAuthorities(String userName);}
+package com.MITProjectService.admin.dao;import com.MITProjectService.admin.domain.system.Authorities;import java.util.List;public interface AuthoritiesRepo {    void save(Authorities authorities);    List<Authorities> listAuthorities(String userName);//    List<Authorities> getAuthorityListByuUserName(String username);}
