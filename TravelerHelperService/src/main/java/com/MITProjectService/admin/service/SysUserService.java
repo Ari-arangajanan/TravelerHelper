@@ -1,1 +1,1 @@
-package com.MITProjectService.admin.service;import com.MITProjectService.admin.domain.system.Authorities;import com.MITProjectService.admin.domain.system.SysUser;import java.util.List;import java.util.Set;public interface SysUserService {    SysUser addSysUser(SysUser sysUser);    SysUser findByUserName(String userName);}
+package com.MITProjectService.admin.service;import com.MITProjectService.admin.domain.system.SysUser;public interface SysUserService {    SysUser addSysUser(SysUser sysUser);    SysUser findByUserName(String userName);}

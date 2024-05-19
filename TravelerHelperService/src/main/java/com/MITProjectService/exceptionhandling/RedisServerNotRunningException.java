@@ -1,0 +1,1 @@
+package com.MITProjectService.exceptionhandling;public class RedisServerNotRunningException extends RuntimeException{    public RedisServerNotRunningException(String message) {        super(message);    }    public RedisServerNotRunningException(String message, Throwable cause) {        super(message, cause);    }}
