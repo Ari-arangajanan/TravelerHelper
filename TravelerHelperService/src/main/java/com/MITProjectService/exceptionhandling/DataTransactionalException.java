@@ -1,0 +1,1 @@
+package com.MITProjectService.exceptionhandling;public class DataTransactionalException extends RuntimeException{    public DataTransactionalException(String message) {        super(message);    }    public DataTransactionalException(String message, Throwable cause) {        super(message,cause);    }}
