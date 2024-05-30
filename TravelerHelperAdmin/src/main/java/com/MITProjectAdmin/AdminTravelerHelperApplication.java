@@ -6,12 +6,14 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @SpringBootApplication
 @EnableTransactionManagement
 @ComponentScan(basePackages = {"com.MITProjectService", "com.MITProjectAdmin"})
 @EntityScan(basePackages = {"com.MITProjectService.admin.domain"})
+@EnableJpaRepositories(basePackages = "com.MITProjectService.admin.dao.JpaRepos")
 public class AdminTravelerHelperApplication {
 
 	public static void main(String[] args) {

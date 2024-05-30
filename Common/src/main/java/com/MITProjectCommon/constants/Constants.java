@@ -1,1 +1,1 @@
-package com.MITProjectCommon.constants;public class Constants {    public static final long DEFAULT_PAGE = 1;    public static final long DEFAULT_LIMIT = 20;}
+package com.MITProjectCommon.constants;public class Constants {    public static final long DEFAULT_PAGE = 0;    public static final long DEFAULT_LIMIT = 20;}
