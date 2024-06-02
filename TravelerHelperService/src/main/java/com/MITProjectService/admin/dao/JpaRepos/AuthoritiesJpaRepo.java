@@ -1,0 +1,1 @@
+package com.MITProjectService.admin.dao.JpaRepos;import com.MITProjectService.admin.domain.system.Authorities;import org.springframework.data.jpa.repository.JpaRepository;import org.springframework.stereotype.Repository;@Repositorypublic interface AuthoritiesJpaRepo extends JpaRepository<Authorities, Long>{}
