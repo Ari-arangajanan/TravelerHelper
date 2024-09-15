@@ -1,0 +1,1 @@
+package com.MITProjectService.admin.request;import com.MITProjectCommon.constants.Constants;import lombok.AllArgsConstructor;import lombok.Data;import lombok.NoArgsConstructor;@Data@AllArgsConstructor@NoArgsConstructorpublic class UserRoleRequest {    private int page=(int) Constants.DEFAULT_PAGE;    private int limit= (int) Constants.DEFAULT_LIMIT;}
