@@ -1,0 +1,1 @@
+package com.MITProject.TravelerHelperBot.botController;import org.springframework.web.bind.annotation.RequestMapping;import org.springframework.web.bind.annotation.RestController;@RestController@RequestMapping("/app/telegram")public class TelegramBotController {}
