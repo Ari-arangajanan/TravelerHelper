@@ -1,0 +1,1 @@
+package com.MITProjectService.bot.enums;public enum UserEnums {    USER(1),    SERVICE_PROVIDER(2),    ENABLED(1),    LOCKED(2),    DISABLED(3);    final int val;    UserEnums(int val) {        this.val = val;    }    public int getVal() {        return val;    }}
