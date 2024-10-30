@@ -1,1 +1,1 @@
-package com.MITProjectService.bot.domain;import jakarta.persistence.*;import lombok.Data;import java.util.Date;@Data@Entity//@Table(name = "sn_service_provider")public class ServiceProvider extends User{    String category;    String location;}
+package com.MITProjectService.bot.domain;import jakarta.persistence.*;import lombok.Data;@Data@Entitypublic class ServiceProvider extends User{    String category;    String location;}
