@@ -1,1 +1,0 @@
-package com.MITProjectService.bot.Services;import com.MITProjectService.bot.domain.User;public interface UserService {    void saveUser(User user);}

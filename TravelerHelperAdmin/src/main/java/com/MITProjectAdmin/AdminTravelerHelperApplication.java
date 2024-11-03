@@ -12,8 +12,8 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @SpringBootApplication
 @EnableTransactionManagement
 @ComponentScan(basePackages = {"com.MITProjectService", "com.MITProjectAdmin"})
-@EntityScan(basePackages = {"com.MITProjectService.admin.domain"})
-@EnableJpaRepositories(basePackages = "com.MITProjectService.admin.dao.JpaRepos")
+@EntityScan(basePackages = {"com.MITProjectService.admin.domain", "com.MITProjectService.bot.domain"})
+@EnableJpaRepositories(basePackages = {"com.MITProjectService.admin.dao.JpaRepos", "com.MITProjectService.bot.dao.jpaRepos"})
 public class AdminTravelerHelperApplication {
 
 	public static void main(String[] args) {
