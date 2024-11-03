@@ -1,1 +1,1 @@
-package com.MITProjectService.bot.Services;import com.MITProjectService.bot.domain.User;public interface SnUserService {    void saveUser(User user);}
+package com.MITProjectService.bot.Services;import com.MITProjectService.bot.domain.SnUser;import org.springframework.data.domain.Page;import org.springframework.data.domain.Pageable;public interface SnUserService {    void saveUser(SnUser snUser);    Page<SnUser> getAllUsers(Pageable pageable);}

@@ -1,1 +1,0 @@
-package com.MITProjectService.bot.Services;import com.MITProjectService.bot.domain.ServiceProvider;public interface ServiceProviderServicer {    void saveServiceProvider(ServiceProvider serviceProvider);}
