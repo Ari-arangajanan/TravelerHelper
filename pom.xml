@@ -18,6 +18,7 @@
 		<java.version>17</java.version>
 		<maven.compiler.source>17</maven.compiler.source>
 		<maven.compiler.target>17</maven.compiler.target>
+        <ngrok.version>0.5.0</ngrok.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -81,6 +82,19 @@
 			<artifactId>jackson-datatype-jsr310</artifactId>
 			<version>2.15.2</version>
 		</dependency>
+
+<!--		data validation -->
+		<dependency>
+			<groupId>javax.validation</groupId>
+			<artifactId>validation-api</artifactId>
+			<version>2.0.1.Final</version>
+		</dependency>
+		<!--		ngrok-->
+		<dependency>
+			<groupId>com.ngrok</groupId>
+			<artifactId>ngrok-java</artifactId>
+			<version>0.5.0</version>
+		</dependency>
 	</dependencies>
 	<repositories>
 		<repository>
@@ -118,6 +132,7 @@
 			</releases>
 		</pluginRepository>
 	</pluginRepositories>
+
 	<modules>
 		<module>TravelerHelperService</module>
 		<module>common</module>
