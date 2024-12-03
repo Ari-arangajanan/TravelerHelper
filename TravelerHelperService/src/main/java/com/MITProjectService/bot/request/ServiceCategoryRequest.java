@@ -1,0 +1,1 @@
+package com.MITProjectService.bot.request;import lombok.AllArgsConstructor;import lombok.Data;import lombok.NoArgsConstructor;@Data@NoArgsConstructor@AllArgsConstructorpublic class ServiceCategoryRequest {    private Long id;    private String categoryName;    private String description;    private int status;}
