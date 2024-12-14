@@ -1,0 +1,1 @@
+package com.MITProjectService.bot.enums;public enum ServiceRegistration {    PENDING(1),    APPROVED(2),    REJECTED(3),    ENABLED(1),    LOCKED(2),    DISABLED(3);    final int val;    ServiceRegistration(int val) {        this.val = val;    }    public int getVal() {        return val;    }}

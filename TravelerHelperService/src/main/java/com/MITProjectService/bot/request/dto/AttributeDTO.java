@@ -1,0 +1,1 @@
+package com.MITProjectService.bot.request.dto;import lombok.Data;@Datapublic class AttributeDTO {    private String attributeName;    private String attributeValue;}
