@@ -1,0 +1,1 @@
+package com.MITProjectService.bot.Services;import com.MITProjectService.bot.domain.Services;import org.springframework.data.jpa.repository.JpaRepository;import org.springframework.stereotype.Repository;@Repositorypublic interface ServicesService extends JpaRepository<Services, Long> {}
