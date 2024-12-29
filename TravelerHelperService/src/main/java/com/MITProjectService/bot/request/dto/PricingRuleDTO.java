@@ -1,0 +1,1 @@
+package com.MITProjectService.bot.request.dto;import lombok.Data;import java.time.LocalDateTime;@Datapublic class PricingRuleDTO {    private String pricingType; // e.g., "Weekend Rate", "Holiday Rate"    private Double price;    private LocalDateTime startDate;    private LocalDateTime endDate;}
