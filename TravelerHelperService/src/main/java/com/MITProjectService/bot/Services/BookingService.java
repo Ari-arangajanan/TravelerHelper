@@ -1,0 +1,1 @@
+package com.MITProjectService.bot.Services;import com.MITProjectService.bot.domain.Bookings;import com.MITProjectService.bot.request.BookingRequest;import javax.validation.Valid;public interface BookingService {    Bookings submitBooking(@Valid BookingRequest request);}
