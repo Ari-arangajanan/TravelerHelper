@@ -1,0 +1,1 @@
+package com.MITProjectService.bot.Services.impl;import com.MITProjectService.bot.Services.PaymentService;import org.springframework.stereotype.Service;@Servicepublic class PaymentServiceImpl implements PaymentService {}
