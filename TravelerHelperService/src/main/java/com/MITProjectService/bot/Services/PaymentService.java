@@ -1,1 +1,1 @@
-package com.MITProjectService.bot.Services;public interface PaymentService {}
+package com.MITProjectService.bot.Services;import com.MITProjectService.bot.domain.Payment;import com.MITProjectService.bot.request.PaymentRequest;public interface PaymentService {    String pay(PaymentRequest paymentRequest);    Payment saveOrUpdate(Payment payment);    Payment findByBookingId(Long id);}
