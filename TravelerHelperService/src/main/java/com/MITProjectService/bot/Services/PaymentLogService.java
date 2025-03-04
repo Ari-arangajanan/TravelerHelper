@@ -1,0 +1,1 @@
+package com.MITProjectService.bot.Services;import com.MITProjectService.bot.domain.PaymentLogs;public interface PaymentLogService {    void save(PaymentLogs paymentLogs);}
