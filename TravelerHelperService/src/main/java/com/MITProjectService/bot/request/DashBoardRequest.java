@@ -1,0 +1,1 @@
+package com.MITProjectService.bot.request;import lombok.Data;@Datapublic class DashBoardRequest {    private String dashboardId;    private Long userId;}

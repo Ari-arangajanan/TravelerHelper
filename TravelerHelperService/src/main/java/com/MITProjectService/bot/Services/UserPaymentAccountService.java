@@ -1,0 +1,1 @@
+package com.MITProjectService.bot.Services;import com.MITProjectService.bot.domain.UserPaymentAccount;import com.MITProjectService.bot.request.UserPaymentAccountRequest;public interface UserPaymentAccountService {    UserPaymentAccount createPaymentAccount(UserPaymentAccountRequest userPaymentAccountRequest);    UserPaymentAccount getPaymentAccount(Long userId);}

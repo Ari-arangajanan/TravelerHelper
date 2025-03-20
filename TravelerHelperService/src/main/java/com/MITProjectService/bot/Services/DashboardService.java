@@ -1,0 +1,1 @@
+package com.MITProjectService.bot.Services;import com.MITProjectService.bot.domain.DashBoard;import com.MITProjectService.bot.request.DashBoardRequest;import java.util.Optional;public interface DashboardService {    Optional<DashBoard> getDashboard(DashBoardRequest dashBoardRequest);}

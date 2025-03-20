@@ -53,4 +53,16 @@
         </dependency>
     </dependencies>
 
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <mainClass>com.MITProject.TravelerHelperBot.TravelerHelperApplication</mainClass> <!-- Ensure this matches your package -->
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
 </project>
